@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de daño</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+      <header class="header">
+        <img src="../img/pokedex2.png" alt="Logo de la página" class="logo"/>
+        <div class="enlaces">
+          <a href="../html/index.html" class="aheader">Home</a>
+        </div>
+      </header>
+    <h1>Bienvenido</h1>
+    <!--Formulario de registro-->
+    <main class="form-signin w-100 m-auto">
+        <form id="formRegistro">
+          <img class="mb-4" src="../img/pokedex.png" alt="pokedex" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Registro de usuario</h1>
+      
+          <div class="form-floating">
+            <label for="floatingInput"><U></U>Usuario</label>
+            <input type="string" class="form-control" id="usuario" placeholder="Nombre de usuario" >
+          </div>
+          <div class="form-floating">
+            <label for="floatingInput"><U></U>Mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Nombre de usuario" >
+          </div>
+          <div class="form-floating">
+            <label for="floatingPassword">Password</label>
+            <input type="password" class="form-control" class="input" id="password" placeholder="Password" >
+          </div>
+         
+          <button class="btn btn-primary w-100 py-2" type="submit" id="crearUser">Crear usuario</button>
+        </form>
+      </main>
+      <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/signup.js"></script>
+</body>
+</html>

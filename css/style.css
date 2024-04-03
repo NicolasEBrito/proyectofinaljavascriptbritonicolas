@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+*{    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    background-color: pink;
+    width: 20%; 
+    margin: 0 auto; 
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h1{text-align: center;
+}
+.header {
+    background-color: pink;
+    color: black;
+    border-bottom: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 8px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+.logo{
+    width: 75px;
+    height: 75px;
+}
+main{
+    text-align: center;
+}
+.input{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+label{
+    display: block;
+}
+.calculadora{
+    text-align: center;
+}
+.pkAzar{
+    padding-top: 100px;
+    text-align: center;
+}
+.consultaAtaque{
+    padding-top: 50px;
+    text-align: center;
+}
+#iniciar{
+    margin-top: 30px;
+}
+#crearUser{
+    margin-top: 30px;
+}
+h3{
+    width: 35%;
+    text-align: center;
+    margin: 0px auto;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#consultaPk{
+    margin-top: 20px;
+}

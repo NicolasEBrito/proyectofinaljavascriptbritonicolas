@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+      <!--Header-->
+        <header class="header">
+          <img src="../img/pokedex2.png" alt="Logo de la página" class="logo"/>
+          <div class="enlaces">
+            <a href="../html/index.html" class="aheader">Home</a>
+          </div>
+        </header>
+
+<h1>Calculadora de daño pokémon</h1>
+<!--Calculadora de daño-->
+<div class="calculadora" id="calculadora">
+<h2>Elija el pokemon atacante</h2>
+<select class="form-select" aria-label="Default select example" id="select1">
+    <option selected><Open ></option>
+    <option value="Flareon">Flareon</option>
+    <option value="Vaporeon">Vaporeon</option>
+    <option value="Leafeon">Leafeon</option>
+    <option value="Lapras">Lapras</option>
+    <option value="Sceptile">Sceptile</option>
+    <option value="Magmortar">Magmortar</option>
+  </select>
+  <h2>Elija el pokemon Defensor</h2>
+<select class="form-select" aria-label="Default select example" id="select2">
+    <option selected><Open ></option>
+    <option value="Flareon">Flareon</option>
+    <option value="Vaporeon">Vaporeon</option>
+    <option value="Leafeon">Leafeon</option>
+    <option value="Lapras">Lapras</option>
+    <option value="Sceptile">Sceptile</option>
+    <option value="Magmortar">Magmortar</option>
+  </select>
+  <button type="button" class="btn btn-primary" id="calcularAtaque">Calcular</button>
+
+</div>
+<!--Pokemon al azar-->
+<div class="pkAzar">
+  <button id="azar" >Dime un pokemon al azar</button>
+</div>
+<!--Consulta de ataque-->
+<div class="consultaAtaque">
+  <h3>Ingrese un pokemon para saber su ataque a nivel 50</h3>
+  <input type="text" name="consultapk" id="consultaPk" placeholder="Ingrese un pokemon">
+  <button class="buscarPk" id="consultaBtn">Buscar</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/calculadora.js"></script>
+</body>
+</html>
